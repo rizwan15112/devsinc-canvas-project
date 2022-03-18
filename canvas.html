@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="canvas.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body onload="myFunction()">
+    <!-- <img id="images"  width="600" height="300"  alt="" src="images/img1.jpg"> -->
+
+    <canvas id="myCanvas" width="600" height="500" style="border:1px solid #413131; justify-content: center;" >
+    </canvas>
+    <script src="canvas.js"></script>
+    <div class="conatiner">
+        <div class="row1">
+            <div class="col-lg-4 col-md-8 col-md-12">
+                <input class="border border-0 mt-3 m-1 form-control" type="text" name="Box" id="header" value="" placeholder="Inter For Header">
+            </div>
+            <div class="col-lg-4 col-md-8 col-md-12">
+                <input class="border border-0 mt-3 form-control" type="text" name="Box1" id="footer" value="" placeholder="Enter For footer*">
+            </div>
+    
+            <div class="mt-2">
+                <button class="mb-5 py-2 px-5   color rounded-pill border-0 text-white font-weight-bold text-center"
+                onclick="myFunction()">Add Text</button>
+                <button class="mb-5 py-2 px-5   color rounded-pill border-0 text-white font-weight-bold text-center"
+                onclick="downloadImage()">download</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
